@@ -101,16 +101,16 @@ Cursor               white             black
 CursorColumn         none              brightwhite
 CursorLine           none              brightwhite
 CursorLineNr         black             brightwhite
-DiffAdd              black             white             reverse
-DiffChange           black             white             reverse
-DiffDelete           black             white             reverse
+DiffAdd              brightblue        black             reverse
+DiffChange           brightyellow      black             reverse
+DiffDelete           brightred         black             reverse
 DiffText             black             white             bold,reverse
 Directory            black             white
 EndOfBuffer          black             white
 ErrorMsg             red               white             reverse
 FoldColumn           black             white
-Folded               brightblack       white             italic
-IncSearch            brightyellow      black            t=reverse g=standout
+Folded               brightblack       none              italic
+IncSearch            brightyellow      black             t=reverse g=standout
 LineNr               brightblack       white
 MatchParen           black             white
 ModeMsg              brightblack       white
