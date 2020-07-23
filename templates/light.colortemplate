@@ -136,7 +136,7 @@ TabLineSel           black             white
 Title                black             white
 VertSplit            black             white
 Visual               none              brightyellow
-VisualNOS            black             white
+VisualNOS            none              brightyellow
 WarningMsg           black             brightred
 WildMenu             brightwhite       blue
 Comment              brightblack       none              italic
