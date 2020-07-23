@@ -97,7 +97,7 @@ Variant: gui 256 8
 # Group              Foreground        Background        Attributes
 ColorColumn          none              brightwhite
 Conceal              none              white
-Cursor               none              yellow
+Cursor               white             black
 CursorColumn         none              brightwhite
 CursorLine           none              brightwhite
 CursorLineNr         black             brightwhite
@@ -107,10 +107,10 @@ DiffDelete           black             white             reverse
 DiffText             black             white             bold,reverse
 Directory            black             white
 EndOfBuffer          black             white
-ErrorMsg             black             white             reverse
+ErrorMsg             red               white             reverse
 FoldColumn           black             white
 Folded               brightblack       white             italic
-IncSearch            none              yellow            t=reverse g=standout
+IncSearch            brightyellow      black            t=reverse g=standout
 LineNr               brightblack       white
 MatchParen           black             white
 ModeMsg              brightblack       white
@@ -121,15 +121,15 @@ PmenuSbar            black             brightwhite       reverse
 PmenuSel             black             brightwhite       reverse
 PmenuThumb           black             brightwhite       reverse
 Question             black             white
-Search               black             yellow
+Search               black             brightyellow
 SignColumn           black             white
 SpecialKey           black             white
-SpellBad             black             white             s=red
+SpellBad             red               white             s=red
 SpellCap             black             white             s=blue
 SpellLocal           black             white             s=magenta
 SpellRare            black             white             s=cyan reverse
 StatusLine           black             brightwhite
-StatusLineNC         black             blue
+StatusLineNC         black             brightblue
 TabLine              black             white
 TabLineFill          black             white
 TabLineSel           black             white
