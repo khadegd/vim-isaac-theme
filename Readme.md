@@ -1,6 +1,6 @@
 # Colortemplate: The Toolkit for Vim Color Scheme Designers!
 
-![](https://raw.github.com/lifepillar/Resources/master/colortemplate/colortemplate-v2.png)
+![](https://raw.githubusercontent.com/khadegd/vim-isaac-theme/master/preview/php.png)
 
 Colortemplate is a 100% VimScript plugin for Vim 8 that allows you to easily
 develop color schemes. Its ambitious goal is to become *the* way to create new
