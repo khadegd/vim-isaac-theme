@@ -9,7 +9,7 @@ Author:        Ganesh Khade <ganesh.khade@outlook.com>
 Maintainer:    Myself <myself@somewhere.org>
 Website:       https://ganeshkhade.com
 Description:   Template for a light colorscheme
-License:       Public domain
+License:       MIT
 # Prefix for options: short name is used if this key is not present:
 Option Prefix: light
 # }}}
