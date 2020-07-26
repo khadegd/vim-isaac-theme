@@ -35,9 +35,9 @@ let g:airline#themes#isaac#palette.visual_modified = {
       \ }
 
 
-let s:IA1 = [ '#666666' , '#b2b2b2' , 242 , 249 , '' ]
-let s:IA2 = [ '#8a8a8a' , '#d0d0d0' , 245 , 252 , '' ]
-let s:IA3 = [ '#a8a8a8' , '#ffffff' , 248 , 255 , '' ]
+let s:IA1 = [ '#fafafa' , '#fafafa' , 242 , 249 , '' ]
+let s:IA2 = [ '#fafafa' , '#fafafa' , 245 , 252 , '' ]
+let s:IA3 = [ '#fafafa' , '#fafafa' , 248 , 255 , '' ]
 let g:airline#themes#isaac#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
 let g:airline#themes#isaac#palette.inactive_modified = {
       \ 'airline_c': [ '#cb1c01' , ''        , 160     , ''      , ''     ] ,
