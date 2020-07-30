@@ -87,8 +87,8 @@ Variant: gui
 Variant: 256 8
 #if get(g:, '@optionprefix_transp_bg', 0)
 Variant: gui 256 8
-    Normal           black             none
-    Terminal         black             none
+    Normal           black             white
+    Terminal         black             white
 #else
     Normal           black             white
     Terminal         black             white
@@ -138,7 +138,7 @@ VertSplit            black             white
 Visual               none              brightyellow
 VisualNOS            none              brightyellow
 WarningMsg           black             brightred
-WildMenu             brightwhite       blue
+WildMenu             brightwhite       black
 Comment              brightblack       none              italic
 Constant             blue              none
 Error                none              brightred         underline
@@ -146,10 +146,11 @@ Identifier           blue              none
 Ignore               black             none
 PreProc              red               none
 Special              yellow            none
-Statement            magenta           none
+Statement            red               none
 Todo                 black             none
 Type                 yellow            none              italic
 Underlined           black             none              underline
+EndOfBuffer          brightblack       none
 # See `:help CursorIM`
 CursorIM             none              fg
 # See `:help window-toolbar`
@@ -159,6 +160,147 @@ ToolbarButton        black             white             bold
 
 # Additional highlight groups {{{
 # Add additional highlight groups here if you want
+
+# phpRegion      xxx cleared
+# mysqlKeyword   xxx links to Statement
+# mysqlSpecial   xxx links to Special
+# mysqlString    xxx links to String
+# mysqlNumber    xxx links to Number
+# mysqlVariable  xxx links to Identifier
+# mysqlEscaped   xxx cleared
+# mysqlComment   xxx links to Comment
+# mysqlType      xxx links to Type
+# mysqlOperator  xxx links to Statement
+# mysqlFlow      xxx links to Statement
+# mysqlFunction  xxx links to Function
+# sqlString      xxx cleared
+# sqlComment     xxx cleared
+# phpSuperglobals xxx links to Type
+# phpMagicConstants xxx links to Constant
+# phpServerVars  xxx links to Constant
+# phpConstants   xxx links to Constant
+# phpFunctions   xxx links to Function
+# phpClasses     xxx links to StorageClass
+# phpComment     xxx links to Comment
+# phpDocComment  xxx links to phpComment
+# phpStringDouble xxx links to String
+# phpStringSingle xxx links to String
+# phpIdentifier  xxx links to Identifier
+# phpMethodsVar  xxx cleared
+# phpKeyword     xxx links to Keyword
+# phpType        xxx links to Type
+# phpStatement   xxx links to Statement
+# phpInclude     xxx links to PreProc
+# phpNullValue   xxx links to phpType
+# phpOperator    xxx links to Operator
+# phpMemberSelector xxx links to Operator
+# phpVarSelector xxx links to phpOperator
+# phpMethods     xxx links to Function
+# phpMethod      xxx cleared
+# phpSplatOperator xxx links to phpOperator
+# phpParent      xxx links to Special
+# phpIdentifierSimply xxx links to Identifier
+# phpSpecialChar xxx links to SpecialChar
+# phpBacktick    xxx links to String
+# phpStrEsc      xxx links to SpecialChar
+# phpIdentifierComplex xxx cleared
+# phpBoolean     xxx links to Boolean
+# phpNumber      xxx links to Number
+# phpOctalError  xxx links to Error
+# phpHereDoc     xxx links to String
+# phpTodo        xxx links to Todo
+# phpCommentStar xxx links to phpComment
+# phpCommentTitle xxx links to phpComment
+# phpDocTags     xxx links to phpDefine
+# phpDocParam    xxx links to phpType
+# phpDocIdentifier xxx links to phpComment
+# phpDocNamespaceSeparator xxx links to phpComment
+# phpStringDelimiter xxx links to String
+# phpNowDoc      xxx links to String
+# phpStaticClasses xxx links to phpClasses
+# phpClass       xxx links to phpRegion
+# phpClassNamespaceSeparator xxx links to phpClass
+# phpClassExtends xxx links to phpClass
+# phpClassImplements xxx links to phpClass
+# phpClassDelimiter xxx links to phpRegion
+# phpUseNamespaceSeparator xxx links to phpRegion
+# phpUseFunction xxx cleared
+# phpUseClass    xxx cleared
+# phpUseKeyword  xxx cleared
+# phpUseAlias    xxx cleared
+# phpFunction    xxx links to phpRegion
+# phpYieldFromKeyword xxx links to phpKeyword
+# phpStructure   xxx links to Statement
+# phpException   xxx links to Exception
+# phpParentError xxx links to Error
+# phpDefine      xxx links to PreProc
+# phpStorageClass xxx cleared
+# phpFoldIfContainer xxx cleared
+# phpFoldWhile   xxx cleared
+# phpFoldDoWhile xxx cleared
+# phpFoldFor     xxx cleared
+# phpFoldForeach xxx cleared
+# phpFoldTryContainer xxx cleared
+# phpFoldSwitch  xxx cleared
+# phpFoldFunction xxx cleared
+# phpFoldClass   xxx cleared
+# phpFoldInterface xxx cleared
+# phpFoldHtmlInside xxx cleared
+# phpSCKeyword   xxx links to phpKeyword
+# phpFCKeyword   xxx links to phpKeyword
+# phpFoldCatch   xxx cleared
+# phpFoldFinally xxx cleared
+# phpFoldElseIf  xxx cleared
+# phpFoldElse    xxx cleared
+# phpFoldCase    xxx cleared
+# phpFoldDefault xxx cleared
+# phpRegionSync  xxx cleared
+# bladeDelimiter xxx links to PreProc
+# bladePhpParenBlock xxx cleared
+# bladeEcho      xxx cleared
+# bladeTodo      xxx links to Todo
+# bladeComment   xxx links to Comment
+# bladeKeyword   xxx links to Statement
+# bladePhpRegion xxx cleared
+
+# notesName      xxx links to Underlined
+# notesHiddenMarker xxx links to Ignore
+# notesTagName   xxx links to Underlined
+# notesListBullet xxx links to Comment
+# notesListNumber xxx links to Comment
+# notesDoubleQuoted xxx links to String
+# notesSingleQuoted xxx links to Special
+# notesInlineCodeMarker xxx cleared
+# notesInlineCode xxx links to Special
+# notesItalicMarker xxx links to notesHiddenMarker
+# notesItalic    xxx cterm=italic gui=italic
+# notesBoldMarker xxx links to notesHiddenMarker
+# notesBold      xxx cterm=bold gui=bold
+# notesSubtleURL xxx gui=underline guifg=fg
+# notesTextURL   xxx links to notesSubtleURL
+# notesRealURL   xxx links to notesSubtleURL
+# notesUrlScheme xxx links to notesRealURL
+# notesEmailAddr xxx links to notesSubtleURL
+# notesUnixPath  xxx links to Directory
+# notesPathLnum  xxx links to Comment
+# notesWindowsPath xxx links to Directory
+# notesTodo      xxx links to WarningMsg
+# notesXXX       xxx links to WarningMsg
+# notesFixMe     xxx links to WarningMsg
+# notesInProgress xxx links to Directory
+# notesDoneItem  xxx links to Comment
+# notesDoneMarker xxx links to Question
+# notesVimCmd    xxx links to Special
+notesTitle           blue              white
+# notesShortHeading xxx links to Title
+# notesAtxMarker xxx links to Comment
+# notesAtxHeading xxx links to Title
+# notesBlockQuote xxx links to Comment
+# notesRule      xxx links to Comment
+# notesCodeStart xxx links to Ignore
+# notesCodeEnd   xxx links to Ignore
+# notesModeLine  xxx links to LineNr
+# notesLastEdited xxx links to LineNr
 # }}}
 
 # B/W variant {{{
