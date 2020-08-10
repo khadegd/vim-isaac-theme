@@ -148,7 +148,7 @@ PreProc              red               none
 Special              yellow            none
 Statement            red               none
 Todo                 black             none
-Type                 yellow            none              italic
+Type                 green             none              italic
 Underlined           black             none              underline
 EndOfBuffer          brightblack       none
 # See `:help CursorIM`
@@ -301,6 +301,36 @@ notesTitle           blue              white
 # notesCodeEnd   xxx links to Ignore
 # notesModeLine  xxx links to LineNr
 # notesLastEdited xxx links to LineNr
+
+NERDTreeIgnore       brightblack       none
+NERDTreeUp           brightblack       none
+NERDTreeHelpKey      brightblack       none
+NERDTreeHelpTitle    brightblack       none
+NERDTreeToggleOn     brightblack       none
+NERDTreeToggleOff    brightblack       none
+NERDTreeHelpCommand  brightblack       none
+NERDTreeHelp         brightblack       none
+NERDTreeDir          brightblack       none
+NERDTreeFile         brightblack       none
+NERDTreeLinkTarget   brightblack       none
+NERDTreeLinkFile     brightblack       none
+NERDTreeLinkDir      brightblack       none
+NERDTreeNodeDelimiters  brightblack    none
+NERDTreeDirSlash     brightblack       none
+NERDTreeClosable     brightblack       none
+NERDTreeOpenable     brightblack        none
+NERDTreeRO           brightblack       none
+NERDTreeBookmark     brightblack       none
+NERDTreeExecFile     brightblack       none
+NERDTreeLink         brightblack       none
+NERDTreeFlags        brightblack       none
+NERDTreeCWD          brightblack       none
+NERDTreeBookmarksLeader    brightblack       none
+NERDTreeBookmarksHeader    brightblack       none
+NERDTreeBookmarkName brightblack       none
+NERDTreePart         brightblack       none
+NERDTreePartFile     brightblack       none
+NERDTreeCurrentNode  black             none
 # }}}
 
 # B/W variant {{{
