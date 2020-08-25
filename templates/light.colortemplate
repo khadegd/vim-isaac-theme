@@ -58,7 +58,7 @@ Background: light
 # Color name         GUI               Base256           Base16 (optional)
 Color: black         #42567b           ~                 Black
 Color: red           #cb1c01           ~                 DarkRed
-Color: green         #198528           ~                 DarkGreen
+Color: green         #4bcb01           ~                 DarkGreen
 Color: yellow        #996b14          ~                  DarkYellow
 Color: blue          #014bcb           ~                 DarkBlue
 Color: magenta       #cb01b0           ~                 DarkMagenta
@@ -66,13 +66,15 @@ Color: cyan          #007f91           ~                 DarkCyan
 Color: white         #fafafa           ~                 LightGrey
 Color: brightblack   #7e93b9           ~                 DarkGrey
 Color: brightred     #fbcec7           ~                 LightRed
-Color: brightgreen   #60ad5e           ~                 LightGreen
+Color: brightgreen   #e9f9df           ~                 LightGreen
 Color: brightyellow  #fff1d6           ~                 LightYellow
 Color: brightblue    #e3ecfd           ~                 LightBlue
 Color: brightmagenta #9c4dcc           ~                 LightMagenta
 Color: brightcyan    #4fb3bf           ~                 LightCyan
 # You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 Color: brightwhite   #f1f1f1           231               White
+Color: waybrightblack #aebcd3        ~                 White
+Color: way2brightblack #eff2f6         ~                 White
 # }}}
 
 # Terminal colors {{{
@@ -98,6 +100,7 @@ Variant: gui 256 8
 ColorColumn          none              brightwhite
 Conceal              none              white
 Cursor               white             black
+lCursor              white             black
 CursorColumn         none              brightwhite
 CursorLine           none              brightwhite
 CursorLineNr         black             brightwhite
@@ -134,7 +137,7 @@ TabLine              black             white
 TabLineFill          black             white
 TabLineSel           black             white
 Title                black             white
-VertSplit            black             white
+VertSplit            way2brightblack   white
 Visual               none              brightyellow
 VisualNOS            none              brightyellow
 WarningMsg           black             brightred
@@ -148,9 +151,9 @@ PreProc              red               none
 Special              yellow            none
 Statement            red               none
 Todo                 black             none
-Type                 green             none              italic
+Type                 yellow            none              italic
 Underlined           black             none              underline
-EndOfBuffer          brightblack       none
+EndOfBuffer          way2brightblack    none
 # See `:help CursorIM`
 CursorIM             none              fg
 # See `:help window-toolbar`
@@ -318,7 +321,7 @@ NERDTreeLinkDir      brightblack       none
 NERDTreeNodeDelimiters  brightblack    none
 NERDTreeDirSlash     brightblack       none
 NERDTreeClosable     brightblack       none
-NERDTreeOpenable     brightblack        none
+NERDTreeOpenable     waybrightblack    none
 NERDTreeRO           brightblack       none
 NERDTreeBookmark     brightblack       none
 NERDTreeExecFile     brightblack       none
