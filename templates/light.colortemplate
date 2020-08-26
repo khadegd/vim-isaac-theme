@@ -115,7 +115,7 @@ FoldColumn           black             white
 Folded               brightblack       none              italic
 IncSearch            brightyellow      black             t=reverse g=standout
 LineNr               brightblack       white
-MatchParen           black             white
+MatchParen           yellow            white             bold
 ModeMsg              brightblack       white
 MoreMsg              black             white
 NonText              brightblack       white
