@@ -104,9 +104,9 @@ lCursor              white             black
 CursorColumn         none              brightwhite
 CursorLine           none              brightwhite
 CursorLineNr         black             brightwhite
-DiffAdd              brightblue        black             reverse
-DiffChange           brightyellow      black             reverse
-DiffDelete           brightred         black             reverse
+DiffAdd              none              brightgreen
+DiffChange           none              brightyellow
+DiffDelete           none              brightred
 DiffText             black             white             bold,reverse
 Directory            black             white
 EndOfBuffer          black             white
@@ -334,6 +334,67 @@ NERDTreeBookmarkName brightblack       none
 NERDTreePart         brightblack       none
 NERDTreePartFile     brightblack       none
 NERDTreeCurrentNode  black             none
+
+# GitGutterAddInvisible xxx ctermfg=248 ctermbg=248 guifg=bg guibg=#fafafa
+# GitGutterChangeInvisible xxx ctermfg=248 ctermbg=248 guifg=bg guibg=#fafafa
+# GitGutterDeleteInvisible xxx ctermfg=248 ctermbg=248 guifg=bg guibg=#fafafa
+# GitGutterChangeDeleteInvisible xxx links to GitGutterChangeInvisible
+GitGutterAdd         green             white
+GitGutterChange      yellow            white
+GitGutterDelete      red               white
+# GitGutterChangeDelete xxx links to GitGutterChange
+# GitGutterAddLine xxx links to DiffAdd
+# GitGutterChangeLine xxx links to DiffChange
+# GitGutterDeleteLine xxx links to DiffDelete
+# GitGutterChangeDeleteLine xxx links to GitGutterChangeLine
+# GitGutterAddLineNr xxx links to CursorLineNr
+# GitGutterChangeLineNr xxx links to CursorLineNr
+# GitGutterDeleteLineNr xxx links to CursorLineNr
+# GitGutterChangeDeleteLineNr xxx links to CursorLineNr
+# GitGutterAddIntraLine xxx cterm=reverse gui=reverse
+# GitGutterDeleteIntraLine xxx cterm=reverse gui=reverse
+
+#LspErrorText   xxx links to Error
+LspWarningText       none              brightyellow      underline
+# LspInformationText xxx links to Normal
+# LspHintText    xxx links to Normal
+# LspErrorLine   xxx cleared
+# LspWarningLine xxx cleared
+# LspInformationLine xxx cleared
+# LspHintLine    xxx cleared
+# LspErrorHighlight xxx links to Error
+LspWarningHighlight  none              brightyellow      underline
+# LspInformationHighlight xxx links to Normal
+LspHintHighlight     none              brightgreen       underline
+# lspReference   xxx links to CursorColumn
+# styledDefinition xxx cleared
+
+# pythonStatement xxx links to Statement
+# pythonFunction xxx links to Function
+# pythonConditional xxx links to Conditional
+# pythonRepeat   xxx links to Repeat
+# pythonOperator xxx links to Operator
+# pythonException xxx links to Exception
+# pythonInclude  xxx links to Include
+# pythonAsync    xxx links to Statement
+# pythonDecorator xxx links to Define
+# pythonDecoratorName xxx links to Function
+# pythonDoctestValue xxx links to Define
+# pythonMatrixMultiply xxx cleared
+# pythonTodo     xxx links to Todo
+# pythonComment  xxx links to Comment
+# pythonQuotes   xxx links to String
+# pythonEscape   xxx links to Special
+# pythonRawString         brightblack       none              italic
+# pythonTripleQuotes   brightblack       none              italic
+# pythonSpaceError xxx cleared
+# pythonDoctest  xxx links to Special
+# pythonRawString xxx links to String
+# pythonNumber   xxx links to Number
+# pythonBuiltin  xxx links to Function
+# pythonAttribute xxx cleared
+# pythonExceptions xxx links to Structure
+# pythonSync     xxx cleared
 # }}}
 
 # B/W variant {{{
