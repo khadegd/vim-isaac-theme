@@ -342,14 +342,17 @@ NERDTreeCurrentNode  black             none
 GitGutterAdd         green             white
 GitGutterChange      yellow            white
 GitGutterDelete      red               white
+diffAdded            green             white
+diffChanged          yellow            white
+diffRemoved          red               white
 # GitGutterChangeDelete xxx links to GitGutterChange
 # GitGutterAddLine xxx links to DiffAdd
 # GitGutterChangeLine xxx links to DiffChange
 # GitGutterDeleteLine xxx links to DiffDelete
 # GitGutterChangeDeleteLine xxx links to GitGutterChangeLine
-# GitGutterAddLineNr xxx links to CursorLineNr
-# GitGutterChangeLineNr xxx links to CursorLineNr
-# GitGutterDeleteLineNr xxx links to CursorLineNr
+GitGutterAddLineNr   green             white
+GitGutterChangeLineNr yellow           white
+GitGutterDeleteLineNr red              white
 # GitGutterChangeDeleteLineNr xxx links to CursorLineNr
 # GitGutterAddIntraLine xxx cterm=reverse gui=reverse
 # GitGutterDeleteIntraLine xxx cterm=reverse gui=reverse
