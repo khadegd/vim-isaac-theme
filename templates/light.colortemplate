@@ -125,15 +125,15 @@ PmenuSel             black             brightwhite       reverse
 PmenuThumb           black             brightwhite       reverse
 Question             black             white
 Search               black             brightyellow
-SignColumn           black             white
-SpecialKey           black             white
+SignColumn           brightblack       white
+SpecialKey           waybrightblack    white
 SpellBad             red               white             s=red
 SpellCap             black             white             s=blue
 SpellLocal           black             white             s=magenta
 SpellRare            black             white             s=cyan reverse
-StatusLine           black             brightwhite
+StatusLine           brightblack       white
 StatusLineNC         black             brightblue
-TabLine              black             white
+TabLine              black             brightwhite
 TabLineFill          black             white
 TabLineSel           black             white
 Title                black             white
@@ -146,7 +146,7 @@ Comment              brightblack       none              italic
 Constant             blue              none
 Error                none              brightred         underline
 Identifier           blue              none
-Ignore               black             none
+Ignore               way2brightblack   none
 PreProc              red               none
 Special              yellow            none
 Statement            red               none
@@ -342,17 +342,17 @@ NERDTreeCurrentNode  black             none
 GitGutterAdd         green             white
 GitGutterChange      yellow            white
 GitGutterDelete      red               white
-diffAdded            green             white
-diffChanged          yellow            white
-diffRemoved          red               white
+diffAdded            none              brightgreen
+diffChanged          none              brightyellow
+diffRemoved          none              brightred
 # GitGutterChangeDelete xxx links to GitGutterChange
 # GitGutterAddLine xxx links to DiffAdd
 # GitGutterChangeLine xxx links to DiffChange
 # GitGutterDeleteLine xxx links to DiffDelete
 # GitGutterChangeDeleteLine xxx links to GitGutterChangeLine
-GitGutterAddLineNr   green             white
-GitGutterChangeLineNr yellow           white
-GitGutterDeleteLineNr red              white
+GitGutterAddLineNr   none              brightgreen
+GitGutterChangeLineNr none             brightyellow
+GitGutterDeleteLineNr none             brightred
 # GitGutterChangeDeleteLineNr xxx links to CursorLineNr
 # GitGutterAddIntraLine xxx cterm=reverse gui=reverse
 # GitGutterDeleteIntraLine xxx cterm=reverse gui=reverse
